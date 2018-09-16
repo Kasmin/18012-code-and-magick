@@ -86,7 +86,7 @@ var renderWizards = function () {
   }
 
   return fragment;
-}
+};
 
 // Вставляю сгенерированных волшебников на страницу
 wizardsList.appendChild(renderWizards());
