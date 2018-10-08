@@ -4,7 +4,7 @@ window.GameConstants = {
   Fireball: {
     size: window.fireballSize || 24,
     speed: window.getFireballSpeed || function (movingLeft) {
-      console.log(window.fireballSize);
+
       return movingLeft ? 2 : 5;
     }
   },
@@ -22,7 +22,7 @@ window.GameConstants = {
     }
   }
 };
-console.log(window.wizardSpeed);
+
 window.Game = (function () {
   /**
    * @const
@@ -592,7 +592,7 @@ window.Game = (function () {
           x: me.direction & Direction.RIGHT ? me.x + me.width : me.x - window.GameConstants.Fireball.size,
           y: me.y + me.height / 2
         });
-        console.log('SHIFT');
+
         this.state.keysPressed.SHIFT = false;
       }
 
