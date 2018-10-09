@@ -30,6 +30,21 @@ var wizards = [
     name: generateName(arrayNames, arraySurnames),
     coatColor: generateColor(arrayCoatColor),
     eyesColor: generateColor(arrayEyesColor)
+  },
+  {
+    name: generateName(arrayNames, arraySurnames),
+    coatColor: generateColor(arrayCoatColor),
+    eyesColor: generateColor(arrayEyesColor)
+  },
+  {
+    name: generateName(arrayNames, arraySurnames),
+    coatColor: generateColor(arrayCoatColor),
+    eyesColor: generateColor(arrayEyesColor)
+  },
+  {
+    name: generateName(arrayNames, arraySurnames),
+    coatColor: generateColor(arrayCoatColor),
+    eyesColor: generateColor(arrayEyesColor)
   }
 ];
 console.log(wizards);
