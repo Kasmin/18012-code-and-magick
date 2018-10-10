@@ -1,7 +1,6 @@
 'use strict';
 
 var WIDTH_CANVAS = 700;
-var HEIGHT_CANVAS = 300;
 var WIDTH_CLOUD = 420;
 var HEIGHT_CLOUD = 270;
 var WIDTH_COLUMN = 40;
@@ -42,9 +41,7 @@ window.renderStatistics = function (ctx, names, times) {
       color = 'rgba(255, 0, 0, 1)';
     }
     var heightColumn = HEIGHT_COLUMN * times[i] / maxColumn;
-    console.log(names[i]);
     var heightColumnToDraw = HEIGHT_CLOUD - heightColumn - 30;
-    console.log('height-to-draw' + heightColumnToDraw);
     drawColumn(ctx, (START_X + paddingColumn), Math.floor(heightColumnToDraw), WIDTH_COLUMN, Math.floor(heightColumn), color);
     ctx.fillStyle = '#000';
     ctx.textStyle = '16px PT Mono';
