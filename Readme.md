@@ -1,6 +1,6 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
-* Студент: [Зули Дышекова](https://up.htmlacademy.ru/javascript/15/user/18012).
+* Студент: Kasmin.
 * Наставник: `Неизвестно`.
 
 ---
